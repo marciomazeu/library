@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Marcio\\projetos-programas\\c-sharp\\biblioteca\\Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF840275-6103-4701-9484-733768AAB3A0}|Library\\Library.csproj|d:\\marcio\\projetos-programas\\c-sharp\\biblioteca\\library\\library\\models\\borrowingrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF840275-6103-4701-9484-733768AAB3A0}|Library\\Library.csproj|solutionrelative:library\\models\\borrowingrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF840275-6103-4701-9484-733768AAB3A0}|Library\\Library.csproj|d:\\marcio\\projetos-programas\\c-sharp\\biblioteca\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF840275-6103-4701-9484-733768AAB3A0}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 306,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowingRecords.cs",
+              "DocumentMoniker": "D:\\Marcio\\projetos-programas\\c-sharp\\biblioteca\\Library\\Library\\Models\\BorrowingRecords.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\BorrowingRecords.cs",
+              "ToolTip": "D:\\Marcio\\projetos-programas\\c-sharp\\biblioteca\\Library\\Library\\Models\\BorrowingRecords.cs",
+              "RelativeToolTip": "Library\\Models\\BorrowingRecords.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T01:31:46.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Marcio\\projetos-programas\\c-sharp\\biblioteca\\Library\\Library\\Program.cs",
+              "RelativeDocumentMoniker": "Library\\Program.cs",
+              "ToolTip": "D:\\Marcio\\projetos-programas\\c-sharp\\biblioteca\\Library\\Library\\Program.cs",
+              "RelativeToolTip": "Library\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T01:25:57.035Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 94,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a7673ab8-96c2-4f8f-86b9-ef4527b5383a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
