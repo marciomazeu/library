@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Library
 build_property.RootNamespace = Library
@@ -19,6 +27,22 @@ build_property.MSBuildProjectDirectory = D:\Marcio\projetos-programas\c-sharp\bi
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
+
+[D:/Marcio/projetos-programas/c-sharp/biblioteca/Library/Library/Views/Borrowing/DeleteBorrow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nXERlbGV0ZUJvcnJvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Marcio/projetos-programas/c-sharp/biblioteca/Library/Library/Views/Borrowing/EditBorrow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nXEVkaXRCb3Jyb3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Marcio/projetos-programas/c-sharp/biblioteca/Library/Library/Views/Borrowing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Marcio/projetos-programas/c-sharp/biblioteca/Library/Library/Views/Borrowing/NewBorrow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nXE5ld0JvcnJvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Marcio/projetos-programas/c-sharp/biblioteca/Library/Library/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=

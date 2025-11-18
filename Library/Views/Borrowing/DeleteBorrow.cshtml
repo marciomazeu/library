@@ -1,0 +1,69 @@
+﻿@model Library.Models.BorrowingRecords
+
+@{
+
+    ViewData["title"] = "Delete Borrow";
+}
+
+
+<div class="container bg-dark p-5 rounded-5">
+    <div class="mb-5 text-center">
+        <h4 class="text-light">Delete Borrow</h4>
+    </div>
+
+
+
+
+    <hr />
+    <div class="row">
+        <div class="">
+            <form asp-action="DeleteBorrow" asp-controller="Borrowing" method="post">
+                <input type="hidden" asp-for=Id />
+
+                <h2 class="text-light">Are you sure you want to delete this book</h2>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="BookName" for="inputPassword5" class="form-label text-light"></label>
+                    <input asp-for="BookName" class="form-control" disabled />
+                    <span asp-validation-for="BookName" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="BookTitle" class="control-label text-light"></label>
+                    <input asp-for="BookTitle" class="form-control" disabled />
+                    <span asp-validation-for="BookTitle" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="BookDescription" class="control-label text-light"></label>
+                    <input asp-for="BookDescription" class="form-control" disabled />
+                    <span asp-validation-for="BookDescription" class="text-danger"></span>
+                    @* </div>
+                <div class="form-group mb-3">
+                    <label asp-for="PersonId" class="control-label text-light"></label>
+                <input asp-for="PersonId" class="form-control" />
+                <span asp-validation-for="PersonId" class="text-danger"></span>
+            </div> *@
+                    <div class="form-group mb-3">
+                        <label asp-for="PersonName" class="control-label text-light"></label>
+                        <input asp-for="PersonName" class="form-control" disabled />
+                        <span asp-validation-for="PersonName" class="text-danger"></span>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

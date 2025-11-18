@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BorrowingRecords>
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-5">
+        <h1>Borrowings</h1>
+        <a class="btn btn-success mx-2" asp-controller="Borrowing" asp-action="NewBorrow">New Borrow</a>
+    </div>
+
+<table class="table table-striped">
+    <tr>
+        
+        
+        <th>BookName</th>
+        <th>BookTitle</th>
+        <th>Description</th>
+        
+        <th>PersonName</th>
+        <th>BorrowDate</th>
+        <th>BorrowDateDelivery</th>
+        <th></th>
+    </tr>
+
+@if(Model != null){
+    
+        @foreach(var borrowing in Model)
+        {
+            <tr>
+               
+                
+                <td>@borrowing.BookName</td>
+                <td>@borrowing.BookTitle</td>
+                <td>@borrowing.BookDescription</td>
+                
+                <td>@borrowing.PersonName</td>
+                <td>@borrowing.BorrowDate</td>
+                <td>@borrowing.BorrowDateDelivery </td>
+               <td>
+                        <a asp-controller="Borrowing" asp-action="EditBorrow" asp-route-id="@borrowing.Id" class="btn btn-warning mx-2">Edit</a>
+                        <a asp-controller="Borrowing" asp-action="DeleteBorrow" asp-route-id="@borrowing.Id" class="btn btn-danger mx-2">Delete</a>
+               </td>
+            </tr>
+        }
+        
+}
+
+
+    
+   
+</table>
+</div>
